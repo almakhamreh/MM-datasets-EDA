@@ -1,3 +1,3 @@
 # MM-datasets-EDA
 
-PhishIntention Dataset Parquet Files download link: shorturl.at/eiASV
+To download all Parquet files used in this repository: https://linktr.ee/mmedastudy
