@@ -30,9 +30,9 @@ Ensure to download the files and adjust the paths accordingly in the notebooks.
 
 If you have any questions, feedback, or suggestions, feel free to reach out:
 
-- **Email:** [Email Address](mailto:almakhamrehahmad@gmail.com)
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/ahmadalmakhamreh/)
-- **GitHub:** [GitHub Profile](https://github.com/almakhamreh)
+- **Email:** almakhamrehahmad@gmail.com
+- **LinkedIn:** [https://www.linkedin.com/in/ahmadalmakhamreh/](https://www.linkedin.com/in/ahmadalmakhamreh/)
+- **GitHub:** [https://github.com/almakhamreh](https://github.com/almakhamreh)
 
 Don't hesitate to get in touch with any inquiries or collaboration opportunities. I'd love to hear from you!
 
