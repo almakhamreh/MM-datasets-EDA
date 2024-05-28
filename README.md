@@ -44,7 +44,7 @@ Don't hesitate to get in touch with any inquiries or collaboration opportunities
 
 Here are some useful resources for further reading:
 
-- [PWD2016 Dataset Paper](https://www.researchgate.net/profile/Colin-Choon-Lin-Tan/publication/329554848_Building_Standard_Offline_Anti-phishing_Dataset_for_Benchmarking/links/5c0f24374585157ac1b9194e/Building-Standard-Offline-Anti-phishing-Dataset-for-Benchmarking.pdf): In depth description about the PWD2016 dataset by the authors.
+- [PWD2016](https://www.researchgate.net/profile/Colin-Choon-Lin-Tan/publication/329554848_Building_Standard_Offline_Anti-phishing_Dataset_for_Benchmarking/links/5c0f24374585157ac1b9194e/Building-Standard-Offline-Anti-phishing-Dataset-for-Benchmarking.pdf): In depth description about the PWD2016 dataset by the authors.
   - Chiew, K. L., Chang, E. H., Tan, C. L., Abdullah, J., & Yong, K. S. C. (2018). Building standard offline anti-phishing dataset for benchmarking. International Journal of Engineering & Technology, 7(4.31), 7-14.
 - [PhishIntention](https://www.usenix.org/system/files/sec22-liu-ruofan.pdf): The paper that introduced the PhishIntention dataset.
     - Liu, R., Lin, Y., Yang, X., Ng, S. H., Divakaran, D. M., & Dong, J. S. (2022). Inferring phishing intention via webpage appearance and dynamics: A deep vision based approach. In 31st USENIX Security Symposium (USENIX Security 22) (pp. 1633-1650).
