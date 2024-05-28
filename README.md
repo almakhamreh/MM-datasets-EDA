@@ -1,15 +1,13 @@
 # Exploratory Data Analysis of Anti-phishing Datasets
 
 ## Description
-This repository analyzes multimodal anti-phishing datasets comprising URLs, HTML source code, screenshot images, and more. We delve into each dataset using separate notebooks, analyzing and visualizing essential statistics and information. For each notebook, we initially focus on phishing samples followed by legitimate ones. The provided information includes:
+This repository contains notebooks for conducting exploratory data analysis (EDA) on multimodal anti-phishing datasets. The datasets provided encompass various components such as URLs, HTML source code, screenshot images, and more. The goal of the analysis is to gain insights into phishing attempts and legitimate instances by exploring key statistics and visualizing important information.
 
-- Identification of missing data in the datasets
-- Analysis of average text lengths
-- Visualization of targeted brands in phishing attempts
-- Analysis of website languages
-- Pie charts illustrating SSL distribution of the URLs
-- Plots showcasing URL domains and Top-Level Domains (TLD)
-- Calculation of URL min, max, and average lengths
+## Key Feautres
+
+- **Comprehensive Analysis:** Each dataset is explored in a separate notebook, allowing for in-depth analysis and comparison of phishing and legitimate samples.
+- **Statistical Insights:** The notebooks provide insights into missing data, average text lengths, SSL distribution, website languages, and URL characteristics such as domains and Top-Level Domains (TLD).
+- **Visualizations:** Visualizations including pie charts, plots, and graphs are utilized to effectively present the analysis results, aiding in understanding and interpretation.
 
 ## Data Files
 
