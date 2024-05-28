@@ -28,7 +28,7 @@ Ensure to download the files and adjust the paths accordingly in the notebooks.
 
 
 
-### Contact Information
+## Contact Information
 
 If you have any questions, feedback, or suggestions, feel free to reach out:
 
@@ -40,7 +40,7 @@ Don't hesitate to get in touch with any inquiries or collaboration opportunities
 
 
 
-### References
+## References
 
 Here are some useful resources for further reading:
 
