@@ -11,7 +11,7 @@ This repository contains notebooks for conducting exploratory data analysis (EDA
 
 ## Data Files
 
-Below are links to download Parquet files for five different datasets utilized in this project. Each dataset comprises two files: one for phishing and the other for legitimate instances.
+Below are links to download Parquet files for five different datasets utilized in this project. Each dataset comprises two classes: phishing and legitimate instances.
 
 Ensure to download the files and adjust the paths accordingly in the notebooks.
 
