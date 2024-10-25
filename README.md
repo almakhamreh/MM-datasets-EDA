@@ -17,7 +17,7 @@ Ensure to download the files and adjust the paths accordingly in the notebooks.
 
 | Dataset Name | Dataset Size |  File Type              | Size in GB   |  Download Link   |
 |--------------|---------------|---------|-------------------------------------------|--------------|
-| **Phish360 (ours)** | ~11k | Parquet Files    | 0.6 GB | [Download](https://drive.google.com/drive/u/3/folders/1ulQYtb63pZlhgcKMuTeiDze1onsY1yKT)  |
+| **Phish360 (ours)** | ~11k | Parquet Files    | 0.6 GB | [Download](https://drive.google.com/drive/u/1/folders/1ulQYtb63pZlhgcKMuTeiDze1onsY1yKT)  |
 | PWD2016       | 30k | Parquet Files    |  1.1 GB | [Download](https://drive.google.com/drive/folders/1IWip7RW_p8iISYMAT-Db_pFIp4BWb_sn?usp=drive_link)  |
 | PhishIntention | ~58k | Parquet Files    | 2.5 GB | [Download](https://drive.google.com/drive/folders/1VsApDC3kYFu7HJ2joYN-klG4jIvOQLkQ?usp=drive_link) | 
 | VanNL126k | ~126k| Parquet Files    |  5.12 GB | [Download](https://drive.google.com/drive/folders/1JzcYGREyEewglE-uWWZqdQA8Sz0iBiWh?usp=drive_link) |
