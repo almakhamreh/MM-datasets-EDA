@@ -29,13 +29,38 @@ Below are links to download Parquet files for the datasets analyzed.
 | VanNL126k | ~126k| Parquet Files    |  5.12 GB | [Download](https://drive.google.com/drive/folders/1JzcYGREyEewglE-uWWZqdQA8Sz0iBiWh?usp=drive_link) |
 | PILWD-134K | ~134k | Parquet Files    |  8.36 GB | [Download](https://drive.google.com/drive/u/2/folders/1TYwUehoq4pFGYnvn8iXQqtSbS788mgLi)  |
 
+## Repository Structure
+```
+MM-datasets-EDA/
+├── notebooks/
+│   ├── individual/           # Individual dataset EDA notebooks
+│   │   ├── Phish360 EDA PQ.ipynb
+│   │   ├── PWD2016 EDA PQ.ipynb
+│   │   ├── PhishIntention EDA PQ.ipynb
+│   │   ├── PILWD-134K EDA PQ.ipynb
+│   │   └── VanNL126k EDA PQ.ipynb
+│   └── comparative/          # Cross-dataset comparison
+│       └── Comparative_Analysis.ipynb
+├── scripts/                  # Reproducibility: metric generation code
+│   └── comprehensive_analysis.py  # Generates all plots and metrics
+├── results/
+│   ├── plots/               # Generated visualizations (6 plots)
+│   └── metrics/             # Metric CSV files (6 files)
+└── README.md
+```
+
+> **📌 Note on Scripts:** The `scripts/` folder contains the source code used to generate all metrics and visualizations in `results/`. This ensures **reproducibility** - researchers can verify our methodology and regenerate results independently.
+
 ## Notebooks
-1. **[Phish360 EDA](Phish360%20EDA%20PQ.ipynb)**
-2. **[PWD2016 EDA](PWD2016%20EDA%20PQ.ipynb)**
-3. **[PhishIntention EDA](PhishIntention%20EDA%20PQ.ipynb)**
-4. **[VanNL126k EDA](VanNL126k%20EDA%20PQ.ipynb)**
-5. **[PILWD-134K EDA](PILWD-134K%20EDA%20PQ.ipynb)**
-6. **[Comparative Analysis](Comparative_Analysis.ipynb)** *(New! Cross-dataset benchmarking)*
+1. **Individual Dataset EDAs:**
+   - [Phish360 EDA](notebooks/individual/Phish360%20EDA%20PQ.ipynb)
+   - [PWD2016 EDA](notebooks/individual/PWD2016%20EDA%20PQ.ipynb)
+   - [PhishIntention EDA](notebooks/individual/PhishIntention%20EDA%20PQ.ipynb)
+   - [VanNL126k EDA](notebooks/individual/VanNL126k%20EDA%20PQ.ipynb)
+   - [PILWD-134K EDA](notebooks/individual/PILWD-134K%20EDA%20PQ.ipynb)
+
+2. **Comparative Analysis:**
+   - [Comprehensive Benchmarking](notebooks/comparative/Comparative_Analysis.ipynb) *(7-dimensional quality assessment)*
 
 ## Contact Information
 
