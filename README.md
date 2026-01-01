@@ -31,7 +31,7 @@ Below are links to download Parquet files for the datasets analyzed.
 
 ## Repository Structure
 ```
-MM-datasets-EDA/
+Multimodal-Phishing-Benchmarks/
 ├── notebooks/
 │   ├── individual/           # Individual dataset EDA notebooks
 │   │   ├── Phish360 EDA PQ.ipynb
