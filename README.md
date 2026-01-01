@@ -1,19 +1,25 @@
-# Exploratory Data Analysis of Anti-phishing Datasets
+# Exploratory Data Analysis & Benchmarking of Anti-phishing Datasets
 
-## Description
-This repository contains notebooks for conducting exploratory data analysis (EDA) on multimodal anti-phishing datasets. The datasets provided encompass various components such as URLs, HTML source code, screenshot images, and more. The goal of the analysis is to gain insights into phishing attempts and legitimate instances by exploring key statistics and visualizing important information.
+## Overview
+This repository serves as a **Benchmark Assessment Tool** for researchers in the anti-phishing domain. It provides comprehensive Exploratory Data Analysis (EDA) on five major multimodal datasets: **Phish360**, **PWD2016**, **PhishIntention**, **PILWD-134K**, and **VanNL126k**.
 
-## Key Feautres
+The primary goal is to enable researchers to quantitatively assess the **quality**, **integrity**, and **diversity** of these datasets before selecting them for training or benchmarking their models.
 
-- **Comprehensive Analysis:** Each dataset is explored in a separate notebook, allowing for in-depth analysis and comparison of phishing and legitimate samples.
-- **Statistical Insights:** The notebooks provide insights into missing data, average text lengths, SSL distribution, website languages, and URL characteristics such as domains and Top-Level Domains (TLD).
-- **Visualizations:** Visualizations including pie charts, plots, and graphs are utilized to effectively present the analysis results, aiding in understanding and interpretation.
+## Key Features
+
+- **Quality vs. Quantity Assessment:** We move beyond simple "sample counts" to analyze the *true* uniqueness of content (HTML, Text, Images) versus URLs.
+- **Multimodal Integrity:** Verification of valid data across all modalities (URL validity, HTML parsing success, Screenshot resolution consistency).
+- **Comparative Benchmarking:** A dedicated [Comparative Analysis Notebook](Comparative_Analysis.ipynb) aggregates metrics across all datasets to visualize the trade-offs between dataset size and content repetition.
+- **Granular Insights:** Detailed breakdown of Language distribution, TLD/Domain diversity, and Text Extraction quality for each dataset.
+
+## Key Findings Summary
+Our analysis reveals critical distinctions between datasets:
+- **Phish360:** Maintains high content uniqueness (~92%) and linguistic diversity, making it a robust choice for generalization.
+- **Benchmarks (e.g., PWD2016):** While containing unique URLs, they often suffer from massive content duplication (low content uniqueness <15%), potentially inflating performance metrics if not accounted for.
 
 ## Data Files
 
-Below are links to download Parquet files for five different datasets utilized in this project. Each dataset comprises two classes: phishing and legitimate instances.
-
-Ensure to download the files and adjust the paths accordingly in the notebooks.
+Below are links to download Parquet files for the datasets analyzed.
 
 | Dataset Name | Dataset Size |  File Type              | Size in GB   |  Download Link   |
 |--------------|---------------|---------|-------------------------------------------|--------------|
@@ -23,20 +29,19 @@ Ensure to download the files and adjust the paths accordingly in the notebooks.
 | VanNL126k | ~126k| Parquet Files    |  5.12 GB | [Download](https://drive.google.com/drive/folders/1JzcYGREyEewglE-uWWZqdQA8Sz0iBiWh?usp=drive_link) |
 | PILWD-134K | ~134k | Parquet Files    |  8.36 GB | [Download](https://drive.google.com/drive/u/2/folders/1TYwUehoq4pFGYnvn8iXQqtSbS788mgLi)  |
 
-
-
+## Notebooks
+1. **[Phish360 EDA](Phish360%20EDA%20PQ.ipynb)**
+2. **[PWD2016 EDA](PWD2016%20EDA%20PQ.ipynb)**
+3. **[PhishIntention EDA](PhishIntention%20EDA%20PQ.ipynb)**
+4. **[VanNL126k EDA](VanNL126k%20EDA%20PQ.ipynb)**
+5. **[PILWD-134K EDA](PILWD-134K%20EDA%20PQ.ipynb)**
+6. **[Comparative Analysis](Comparative_Analysis.ipynb)** *(New! Cross-dataset benchmarking)*
 
 ## Contact Information
-
-If you have any questions, feedback, or suggestions, feel free to reach out:
 
 - **Email:** almakhamrehahmad@gmail.com
 - **LinkedIn:** [https://www.linkedin.com/in/ahmadalmakhamreh/](https://www.linkedin.com/in/ahmadalmakhamreh/)
 - **GitHub:** [https://github.com/almakhamreh](https://github.com/almakhamreh)
-
-Don't hesitate to get in touch with any inquiries or collaboration opportunities. I'd love to hear from you!
-
-
 
 ## References
 
