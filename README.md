@@ -9,7 +9,7 @@ The primary goal is to enable researchers to quantitatively assess the **quality
 
 - **Quality vs. Quantity Assessment:** We move beyond simple "sample counts" to analyze the *true* uniqueness of content (HTML, Text, Images) versus URLs.
 - **Multimodal Integrity:** Verification of valid data across all modalities (URL validity, HTML parsing success, Screenshot resolution consistency).
-- **Comparative Benchmarking:** A dedicated [Comparative Analysis Notebook](Comparative_Analysis.ipynb) aggregates metrics across all datasets to visualize the trade-offs between dataset size and content repetition.
+- **Comparative Benchmarking:** A dedicated [Comparative Analysis Notebook](notebooks/comparative/Comparative_Analysis.ipynb) aggregates metrics across all datasets to visualize the trade-offs between dataset size and content repetition.
 - **Granular Insights:** Detailed breakdown of Language distribution, TLD/Domain diversity, and Text Extraction quality for each dataset.
 
 ## Key Findings Summary
